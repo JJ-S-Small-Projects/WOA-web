@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #14573d;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Added to make the footer appear below the container */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Added for space between container and footer */
+}
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: #dc3545; /* Christmas Red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Added for space between button and creator info */
+}
+
+button:hover {
+    background-color: #c82333; /* Darker Red on hover */
+    transform: scale(1.1);
+}
+
+.container p.creator-info {
+    color: #555; /* Dark gray color */
+    font-size: 14px;
+    margin-top: 10px; /* Added for space between creator info and footer */
+}
+
+footer {
+    background-color: #14573d; /* Match the body background color */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Christmas Theme */
+.container {
+    background: linear-gradient(to bottom, #69a267, #a5c161); /* Christmas Green */
+}
+
+#advice {
+    color: #06080a; /* Dark Gray Pixel Color */
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Pixel', sans-serif; /* Pixel Font */
+}
+
+.messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #555; /* Dark gray color */
+}
+
+.messages li {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9e3742; /* Christmas Red */
+}
+
+button {
+    background-color: #dc3545; /* Christmas Red */
+}
+
+button:hover {
+    background-color: #c82333; /* Darker Red on hover */
+}
